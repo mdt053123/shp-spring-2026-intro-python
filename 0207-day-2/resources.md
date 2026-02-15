@@ -6,7 +6,7 @@ This folder builds on Day 1 by adding **functions**, **control flow** (condition
 
 ## Content Videos/Resources -- Please Watch/Read!
 *Note that not all of this will neatly map to everything we covered, so review all files, topics below. Some of these may actually cover more than necessary, but they should be helpful. What is really important is that you can understand (and recreate yourself) every file in this directory, key terms, constructs, etc. If these videos do not sufficiently cover each topic for you, feel free to email me at **mfd2141@columbia.edu** or look up any of these on YouTube, general internet.*
-1. Conditionals, Booleans: youtube.com/watch?v=DZwmZ8Usvnk&list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7&index=6
+1. Conditionals, Booleans: https://www.youtube.com/watch?v=DZwmZ8Usvnk&list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7&index=6
 2. For/While Loops, Iteration: https://www.youtube.com/watch?v=6iF8Xb7Z3wQ&list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7&index=8
 3. Functions: https://www.youtube.com/watch?v=9Os0o3wzS_I&list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7&index=8
 4. Random Module: https://www.youtube.com/watch?v=KzqSDvzOFNA
