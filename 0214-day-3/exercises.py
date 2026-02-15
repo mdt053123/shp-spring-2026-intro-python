@@ -1,4 +1,4 @@
-def first_occurence(nums, num):
+def first_occurrence(nums, num):
     '''
     Search through each number in nums,
     and return the first index at which num
@@ -7,7 +7,7 @@ def first_occurence(nums, num):
     
     Example 1: nums = [1, 2, 3, 4, 3, 5], num = 3 -> return 2
     Example 2: nums = [1, 1, 1], num = 1 -> return 0
-    Example 3: nums [1, 0], num = 2 -> return -1
+    Example 3: nums = [1, 0], num = 2 -> return -1
     '''
     
     for i in range(len(nums)):
@@ -55,7 +55,7 @@ def value_counts(nums):
             
     print(counts)
     
-print(first_occurence([1, 2, 3, 4, 4, 5], 4))
+print(first_occurrence([1, 2, 3, 4, 4, 5], 4))
 print_reverse([1, 2, 3, 4, 4, 5])
 print()
 print(dist_3d((1, 2, 3), (4, 5, 6)))

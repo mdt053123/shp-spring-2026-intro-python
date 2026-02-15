@@ -31,7 +31,7 @@ def guess_the_number():
     Generate a random number between 1 and 100,
     repeatedly ask the user to guess the number;
     if wrong guess, tell them if higher or lower,
-    if right, print "Success" and end the game
+    if right, print "You guessed it!" and end the game
     
     Hint: Use random.randint(a, b)
     """
