@@ -1,3 +1,5 @@
+import knn
+
 points = [
     # Class A
     ((1.0, 1.2), "A"),
@@ -35,3 +37,5 @@ points = [
     ((9.4, 0.9), "C"),
     ((8.6, 1.8), "C"),
 ]
+
+print(knn.classify((0.1, 0.3), 3, points))

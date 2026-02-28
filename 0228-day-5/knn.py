@@ -5,16 +5,16 @@ data = [((0, 0), 'red'),
         ((6, 6), 'blue'),
         ((10, 0), 'green')]
 
-x = float(input("Enter x-val: "))
-y = float(input("Enter y-val: "))
-k = int(input("Enter k-val: "))
+#x = float(input("Enter x-val: "))
+#y = float(input("Enter y-val: "))
+#k = int(input("Enter k-val: "))
 
-p = (x, y)
+#p = (x, y)
 
 def distance(p1, p2):
     return ((p2[0] - p1[0])**2 + (p2[1] - p1[1])**2)**(1/2)
 
-def classify(p, k):
+def classify(p, k, data):
     # assume k is odd, k <= len(data)
     
     for point, color in data:
@@ -51,4 +51,4 @@ def classify(p, k):
     
     return majority_color
 
-print(classify(p, k))
+#print(classify(p, k))
