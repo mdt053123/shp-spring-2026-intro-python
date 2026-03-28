@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            color: #e0e0e0;
+            min-height: 100vh;
+        }
+
+        nav {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        nav .logo {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #a78bfa;
+        }
+
+        nav .links a {
+            color: #c4b5fd;
+            text-decoration: none;
+            margin-left: 1.5rem;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        nav .links a:hover {
+            color: #fff;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 3rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .profile-section {
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+
+        .avatar {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #a78bfa, #6d28d9);
+            margin: 0 auto 1.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3.5rem;
+            color: #fff;
+            box-shadow: 0 0 30px rgba(167, 139, 250, 0.3);
+        }
+
+        .profile-section h1 {
+            font-size: 2.2rem;
+            color: #fff;
+            margin-bottom: 0.4rem;
+        }
+
+        .profile-section .tagline {
+            font-size: 1.1rem;
+            color: #a5b4fc;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 1.8rem;
+            margin-bottom: 1.5rem;
+            backdrop-filter: blur(6px);
+        }
+
+        .card h2 {
+            color: #c4b5fd;
+            font-size: 1.3rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .card p {
+            line-height: 1.7;
+            color: #d1d5db;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+            list-style: none;
+        }
+
+        .skills-list li {
+            background: rgba(167, 139, 250, 0.15);
+            border: 1px solid rgba(167, 139, 250, 0.3);
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: #c4b5fd;
+        }
+
+        .interests-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .interest-item {
+            background: rgba(255, 255, 255, 0.04);
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .interest-item .icon {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .interest-item span {
+            font-size: 0.95rem;
+            color: #d1d5db;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #6b7280;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">My Website</div>
+        <div class="links">
+            <a href="/">Home</a>
+            <a href="/aboutme">About</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="profile-section">
+            <div class="avatar">:)</div>
+            <h1>Your Name Here</h1>
+            <p class="tagline">Student &bull; Coder &bull; Creator</p>
+        </div>
+
+        <div class="card">
+            <h2>About Me</h2>
+            <p>
+                Hi there! I'm a student learning to code with Python. I love building
+                things, solving problems, and exploring new technologies. Right now I'm
+                working on web development with Flask and having a blast turning ideas
+                into real projects.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Python</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Flask</li>
+                <li>Problem Solving</li>
+                <li>Teamwork</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Interests</h2>
+            <div class="interests-grid">
+                <div class="interest-item">
+                    <div class="icon">&#x1F4BB;</div>
+                    <span>Coding</span>
+                </div>
+                <div class="interest-item">
+                    <div class="icon">&#x1F3AE;</div>
+                    <span>Gaming</span>
+                </div>
+                <div class="interest-item">
+                    <div class="icon">&#x1F3B5;</div>
+                    <span>Music</span>
+                </div>
+                <div class="interest-item">
+                    <div class="icon">&#x1F4DA;</div>
+                    <span>Reading</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Fun Facts</h2>
+            <p>
+                I wrote my first line of code in a Python class. My favorite thing about
+                programming is that you can create something from nothing. When I'm not
+                coding, you can probably find me hanging out with friends or diving into
+                a good playlist.
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        Made with Flask &amp; Python
+    </footer>
+</body>
+</html>
